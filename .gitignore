@@ -1,0 +1,9 @@
+syntax:glob
+
+# IntelliJ IDEA
+.idea/**
+*.iml
+
+# Node.js
+node_modules/
+.env
