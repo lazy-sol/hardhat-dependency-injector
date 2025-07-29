@@ -1,10 +1,13 @@
 {
   "name": "hardhat-dependency-injector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Copy compiled Solidity bytecode directly from NPM dependencies",
   "main": "index.js",
   "types": "index.d.ts",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "keywords": [
     "hardhat",
     "hardhat plugin",
@@ -13,17 +16,16 @@
     "dependencies",
     "smart contracts"
   ],
-  "repository": "https://github.com/vgorin/hardhat-dependency-injector",
+  "repository": "https://github.com/lazy-sol/hardhat-dependency-injector",
   "author": "Basil Gorin",
   "peerDependencies": {
-    "hardhat": "^2.16.0"
+    "hardhat": "^2.26.1"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
-    "fs-extra": "^11.1.1",
-    "hardhat": "^2.17.2"
+    "eslint": "^8.57.1",
+    "fs-extra": "^11.3.0"
   },
-  "engines": {
-    "node": ">=16.0.0"
+  "overrides": {
+    "cookie": "^0.7.0"
   }
 }
