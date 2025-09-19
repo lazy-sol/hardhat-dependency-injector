@@ -1,6 +1,6 @@
 {
   "name": "hardhat-dependency-injector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Copy compiled Solidity bytecode directly from NPM dependencies",
   "main": "index.js",
@@ -19,13 +19,14 @@
   "repository": "https://github.com/lazy-sol/hardhat-dependency-injector",
   "author": "Basil Gorin",
   "peerDependencies": {
-    "hardhat": "^2.26.1"
+    "hardhat": "^2.26.3"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
-    "fs-extra": "^11.3.0"
+    "fs-extra": "^11.3.2"
   },
   "overrides": {
-    "cookie": "^0.7.0"
+    "cookie": "^0.7.0",
+    "tmp": "^0.2.4"
   }
 }

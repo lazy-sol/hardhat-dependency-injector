@@ -47,3 +47,4 @@ Please see the [Contribution Guide](./CONTRIBUTING.md) document to get understan
 contribute to the source code, fix bugs, introduce new features, etc.
 
 (c) 2023 Basil Gorin
+(c) 2024–2025 Lazy So\[u\]l
